@@ -11,10 +11,10 @@ import yaml
 from click import testing
 from github import Auth
 
+from tests.conftest import YAMLAutocomplete
 from whiteprint import git
 from whiteprint.cli import entrypoint, exceptions
 from whiteprint.cli.commands import init
-from tests.conftest import YAMLAutocomplete
 
 
 TEST_COPIER: Final = "test_copier"
