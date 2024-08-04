@@ -1,0 +1,156 @@
+#: src/whiteprint/cli/_logging.py:25
+msgid ""
+"[{process}:{thread}] [{pathname}:{funcName}:{lineno}]\n"
+"{message}"
+msgstr ""
+
+#: src/whiteprint/cli/_logging.py:28
+#, python-format
+msgid "[%Y-%m-%dT%H:%M:%S]"
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:376
+msgid ""
+"This command mostly forwards copier's CLI. For more details see "
+"https://copier.readthedocs.io/en/stable/reference/cli/#copier.cli.CopierApp."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:401
+msgid ""
+"The location of the Python Whiteprint Git repository (string that can be "
+"resolved to a template path, be it local or remote)."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:413
+msgid "Specify the VCS tag/commit to use in the Python Whiteprint Git repository."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:425
+msgid ""
+"User-chosen additional file exclusion patterns. Can be repeated to ignore"
+" multiple files."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:437
+msgid ""
+"Consider prereleases when detecting the latest one. Useless if specifying"
+" a --vcs-ref."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:449
+msgid ""
+"User-chosen additional file skip patterns. Can be repeated to ignore "
+"multiple files."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:461
+msgid "Do NOT delete the destination DIRECTORY if there is an error."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:470
+msgid "Use default answers to questions, which might be null if not specified."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:482
+msgid "When set, overwrite files that already exist, without asking."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:491
+msgid "When set, produce no real rendering."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:500
+msgid "When set, disable all output."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:513
+msgid "Default virtual environment backend for Nox."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:522
+msgid "Skip tests after initializing the repository."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:540
+msgid "User data."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:549
+msgid "Force not using --data."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:566
+msgid "User defaults choices."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:576
+msgid "force using the given python interpreter for the post processing."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:586
+msgid ""
+"Github Token to push the newly created repository to Github. The token "
+"must have writing permissions."
+msgstr ""
+
+#: src/whiteprint/cli/commands/init.py:598
+msgid "Force the origin to be an https URL."
+msgstr ""
+
+#: src/whiteprint/cli/commands/tools.py:130
+#, python-format
+msgid "Installed tool: %s"
+msgstr ""
+
+#: src/whiteprint/cli/commands/tools.py:132
+#, python-format
+msgid "%s found. Installation skipped."
+msgstr ""
+
+#: src/whiteprint/cli/commands/tools.py:151
+#, python-format
+msgid "Uninstalled tool: %s"
+msgstr ""
+
+#: src/whiteprint/cli/entrypoint.py:106
+msgid "Thank you for using {}, a tool to generate minimal Python projects."
+msgstr ""
+
+#: src/whiteprint/cli/entrypoint.py:118
+msgid "Logging verbosity."
+msgstr ""
+
+#: src/whiteprint/cli/entrypoint.py:130
+msgid "A file in which to write the log."
+msgstr ""
+
+#: src/whiteprint/filesystem.py:41
+#: src/whiteprint/filesystem.py:45
+#, python-format
+msgid "Changing current directory to: %s"
+msgstr ""
+
+#: src/whiteprint/git.py:254
+#, python-format
+msgid "Pushing ref %s"
+msgstr ""
+
+#: src/whiteprint/nox.py:49
+msgid "Nox exit code: {}"
+msgstr ""
+
+#: src/whiteprint/poetry.py:95
+msgid "Poetry lock failed."
+msgstr ""
+
+#: src/whiteprint/subprocess.py:29
+#, python-format
+msgid "Starting process: '%s'"
+msgstr ""
+
+#: src/whiteprint/subprocess.py:38
+#, python-format
+msgid ""
+"Completed process: '%s' with return code %d. Captured stdout: %s. "
+"Captured stderr: %s"
+msgstr ""

@@ -1,0 +1,82 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-yaml
+        entry: check-yaml --unsafe
+        exclude: ^(template)
+      - id: check-json
+      - id: check-toml
+        exclude: ^(template)
+      - id: detect-private-key
+      - id: end-of-file-fixer
+        exclude: ^(DEPENDENCIES.md) # automatically generated
+      - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.10.0
+    hooks:
+      - id: python-check-blanket-noqa
+      - id: python-check-blanket-type-ignore
+  - repo: https://github.com/tox-dev/tox-ini-fmt
+    rev: 1.3.1
+    hooks:
+      - id: tox-ini-fmt
+        exclude: ^(template)
+  - repo: https://github.com/tox-dev/pyproject-fmt
+    rev: 2.1.4
+    hooks:
+      - id: pyproject-fmt
+        args: ["--column-width", "79", "--indent", "4"]
+        exclude: ^(template)
+  - repo: local
+    hooks:
+      - id: reuse
+        name: reuse
+        entry: reuse
+        args: ["lint"]
+        pass_filenames: false
+        description: "Lint the project directory for compliance with the REUSE Specification"
+        language: system
+        types: [python]
+      - id: ruff-format
+        name: "ruff format"
+        description: "[Fix] Reformat the code"
+        entry: ruff format --preview --config=.ruff.toml
+        language: system
+        types: [python]
+        require_serial: true
+        exclude: ^(template)
+      - id: ruff-fix
+        name: "ruff fix"
+        description: "[Fix] Reformat the code"
+        entry: ruff check --preview --config .ruff.toml --fix-only --show-fixes
+        language: system
+        types: [python]
+        require_serial: true
+        exclude: ^(template)
+      - id: ruff-check
+        name: "ruff check"
+        description: "[Fix] Lint issues"
+        entry: ruff check --preview --diff --config=.ruff.toml
+        language: system
+        types: [python]
+        require_serial: true
+        exclude: ^(gen_ref_pages.py|template)
+      - id: bandit
+        name: bandit
+        description: "[Check] Security issues"
+        entry: bandit --recursive --configfile=bandit.yaml
+        language: system
+        types: [python]
+        exclude: ^(gen_ref_pages.py|template)
+      - id: xenon
+        name: xenon
+        description: "[Check] Code maintainability"
+        entry: xenon --max-average=A --max-modules=A --max-absolute=A --ignore
+          docs/
+        language: system
+        types: [python]
+        exclude: ^(template)

@@ -1,0 +1,89 @@
+[build-system]
+build-backend = "hatchling.build"
+
+requires = [
+    "hatchling",
+]
+
+[project]
+name = "whiteprint"
+version = "0.10.0"
+description = "Opinionated generation of Python projects."
+readme = "README.md"
+keywords = [
+    "beartype",
+    "click",
+    "container",
+    "copier",
+    "docker",
+    "oci-image",
+    "podman",
+    "Python",
+    "rich",
+    "ruff",
+    "template",
+    "tox",
+    "uv",
+]
+license = { text = "MIT" }
+maintainers = [
+    { name = "Romain Brault", email = "mail@romainbrault.com" },
+]
+authors = [
+    { name = "Romain Brault", email = "mail@romainbrault.com" },
+]
+requires-python = ">=3.11,<4.0"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Typing :: Typed",
+]
+dependencies = [
+    "beartype>=0.18.5",
+    "click>=8.1.7",
+    "copier>=9.2",
+    "jinja2-time>=0.2",
+    "platformdirs>=4.2.2",
+    "pygit2>=1.15",
+    "pygithub>=2.3",
+    "returns>=0.22",
+    "rich>=13.7.1",
+    "rich-click>=1.8.3",
+    "typing-extensions>=4.12.1; python_version<'3.12'",
+]
+optional-dependencies.dotenv = [
+    "python-dotenv>=1.0.1",
+]
+
+urls.changelog = "https://github.com/whiteprints/whiteprint/releases"
+urls.documentation = "https://RomainBrault.github.io/whiteprint/"
+urls.homepage = "https://github.com/whiteprints/whiteprint"
+urls.repository = "https://github.com/whiteprints/whiteprint.git"
+scripts.wp = "whiteprint.cli.entrypoint:whiteprint"
+
+scripts.whiteprint = "whiteprint.cli.entrypoint:whiteprint"
+
+[tool.uv]
+managed = true
+dev-dependencies = [
+    # profile
+    "scalene>=1.5.19",
+    # debug
+    "ipython>=8.24.0",
+    "ipdb>=0.13.13",
+    "pdbpp>=0.10.3",
+    # editors
+    "pynvim>=0.4.3",
+]
+
+[tool.uv.workspace]
+members = [ "whiteprint-*" ]

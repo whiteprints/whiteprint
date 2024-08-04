@@ -1,0 +1,24 @@
+[metadata]
+allow-direct-references = true
+
+[build.targets.sdist]
+packages = ["whiteprint", "src/whiteprint"]
+artifacts = ["**/*.mo"]
+include = [
+    "**/*.po",
+    "**/*.pot",
+]
+
+[build.targets.wheel]
+packages = ["whiteprint", "src/whiteprint"]
+artifacts = ["**/*.mo"]
+exclude = [
+    "**/*.po",
+    "**/*.pot",
+]
+
+[build.hooks.custom]
+dependencies = [
+    "babel",
+    "setuptools",
+]

@@ -1,0 +1,20 @@
+name: Labeler
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  labeler:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Run Labeler
+        uses: actions/labeler@v4
+        with:
+          sync-labels: true

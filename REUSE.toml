@@ -1,0 +1,224 @@
+version = 1
+SPDX-PackageName = "whiteprint"
+SPDX-PackageSupplier = "Romain Brault <mail@romainbrault.com>"
+SPDX-PackageDownloadLocation = "https://github.com/whiteprints/whiteprint"
+
+# Project root
+
+[[annotations]]
+path = "REUSE.toml"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+## Information
+
+[[annotations]]
+path = "README.md"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "CONTRIBUTING.md"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "SECURITY.md"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "CODE_OF_CONDUCT.md"
+SPDX-FileCopyrightText = "© 2014 Coraline Ada Ehmeke"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+## Project configuration
+
+[[annotations]]
+path = "pyproject.toml"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "hatch.toml"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "hatch_build.py"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "tox.ini"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".pre-commit-config.yaml"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+## Tools configuration
+
+[[annotations]]
+path = ".gitignore"
+SPDX-FileCopyrightText = "2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".gitattributes"
+SPDX-FileCopyrightText = "2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "pyrightconfig.json"
+SPDX-FileCopyrightText = "2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "pytest.ini"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "bandit.yaml"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".pylintrc"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".coveragerc"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".editorconfig"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".readthedocs.yml"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".ruff.toml"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+## Auto generated files
+
+[[annotations]]
+path = "DEPENDENCIES.md"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "**/requirements.txt"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "**/constraints.txt"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "**/*.lock"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC0-1.0"
+
+# Template
+
+[[annotations]]
+path = "templates/**"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+# Documentation
+
+[[annotations]]
+path = "docs/**/*.md"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "docs/**/*.py"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "docs/images/**/*.png"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Source code
+
+[[annotations]]
+path = "src/whiteprint/**/*.py"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "tests/**/*.py"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "src/whiteprint/py.typed"
+SPDX-FileCopyrightText = "2023 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+# Localization
+
+[[annotations]]
+path = "src/whiteprint/**/*.po"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "src/whiteprint/**/*.pot"
+precedence = "override"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Containers
+
+[[annotations]]
+path = "container/Containerfile"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = "container/Containerfile.containerignore"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+# Github
+
+[[annotations]]
+path = ".github/**/*.yml"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".github/**/*.md"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
+
+[[annotations]]
+path = ".github/CODEOWNERS"
+SPDX-FileCopyrightText = "© 2024 Romain Brault <mail@romainbrault.com>"
+SPDX-License-Identifier = "MIT-0"
