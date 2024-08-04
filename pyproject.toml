@@ -68,9 +68,9 @@ urls.changelog = "https://github.com/whiteprints/whiteprint/releases"
 urls.documentation = "https://RomainBrault.github.io/whiteprint/"
 urls.homepage = "https://github.com/whiteprints/whiteprint"
 urls.repository = "https://github.com/whiteprints/whiteprint.git"
-scripts.wp = "whiteprint.cli.entrypoint:whiteprint"
-
 scripts.whiteprint = "whiteprint.cli.entrypoint:whiteprint"
+
+scripts.wp = "whiteprint.cli.entrypoint:whiteprint"
 
 [tool.uv]
 managed = true

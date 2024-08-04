@@ -40,7 +40,6 @@ repos:
         pass_filenames: false
         description: "Lint the project directory for compliance with the REUSE Specification"
         language: system
-        types: [python]
       - id: ruff-format
         name: "ruff format"
         description: "[Fix] Reformat the code"
