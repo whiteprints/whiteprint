@@ -2,7 +2,7 @@ furo==2024.7.18
 myst-parser==3.0.1
 sphinx-autoapi==3.0.0
 sphinx-autobuild==2024.4.16
-sphinx-click==5.0.1
+sphinx-click==6.0.0
 sphinx==8.0.2
 sphinxcontrib-napoleon==0.7
 sphinxcontrib-spelling==8.0
