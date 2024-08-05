@@ -12,8 +12,6 @@ repos:
       - id: check-toml
         exclude: ^(template)
       - id: detect-private-key
-      - id: end-of-file-fixer
-        exclude: ^(DEPENDENCIES.md) # automatically generated
       - id: trailing-whitespace
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.10.0

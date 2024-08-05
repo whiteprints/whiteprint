@@ -23,6 +23,5 @@ Contributing <contributing>
 Code of Conduct <code_of_conduct>
 Copying <copying>
 Security <security>
-Dependencies <dependencies>
 Changelog <https://github.com/whiteprints/whiteprint/releases>
 ```

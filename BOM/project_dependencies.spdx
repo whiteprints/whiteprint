@@ -1,0 +1,831 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: NOT_DEFINED
+DocumentNamespace: http://spdx.org/spdxdocs/NOT_DEFINED-be3faa17-811f-459c-94bd-bcc90047dd43
+LicenseListVersion: 3.22
+Creator: Tool: sbom4python-0.11.0
+Created: 2024-08-05T14:37:35Z
+CreatorComment: <text>This document has been automatically generated.</text>
+#####
+
+PackageName: annotated-types
+SPDXID: SPDXRef-Package-1-annotated-types
+PackageVersion: 0.7.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: types
+PackageDownloadLocation: https://pypi.org/project/annotated-types/0.7.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/annotated-types/annotated-types
+PackageChecksum: SHA1: 0735cd3d4c272b88405b6b04009716b691115210
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: MIT
+PackageLicenseComments: <text>annotated-types declares MIT License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Reusable constraint types to use with typing.Annotated</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/annotated-types@0.7.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:types:annotated-types:0.7.0:*:*:*:*:*:*:*
+#####
+
+PackageName: arrow
+SPDXID: SPDXRef-Package-2-arrow
+PackageVersion: 1.3.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Arrow
+PackageDownloadLocation: https://pypi.org/project/arrow/1.3.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 87a1a774aad0505d9da18ad1d16f6e571f262503
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseComments: <text>arrow declares Apache Software License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Better dates & times for Python</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/arrow@1.3.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:arrow:arrow:1.3.0:*:*:*:*:*:*:*
+#####
+
+PackageName: beartype
+SPDXID: SPDXRef-Package-3-beartype
+PackageVersion: 0.18.5
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: beartype (leycec@gmail.com)
+PackageDownloadLocation: https://pypi.org/project/beartype/0.18.5
+FilesAnalyzed: false
+PackageHomePage: https://beartype.readthedocs.io
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Unbearably fast runtime type checking in pure Python.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/beartype@0.18.5
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:beartype:beartype:0.18.5:*:*:*:*:*:*:*
+#####
+
+PackageName: certifi
+SPDXID: SPDXRef-Package-4-certifi
+PackageVersion: 2024.7.4
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Certifi
+PackageDownloadLocation: https://pypi.org/project/certifi/2024.7.4
+FilesAnalyzed: false
+PackageHomePage: https://github.com/certifi/python-certifi
+PackageLicenseDeclared: MPL-2.0
+PackageLicenseConcluded: MPL-2.0
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python package for providing Mozilla's CA Bundle.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/certifi@2024.7.4
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:certifi:certifi:2024.7.4:*:*:*:*:*:*:*
+#####
+
+PackageName: cffi
+SPDXID: SPDXRef-Package-5-cffi
+PackageVersion: 1.16.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Organization: s C Foreign Function Interface
+PackageDownloadLocation: https://pypi.org/project/cffi/1.16.0
+FilesAnalyzed: false
+PackageHomePage: http://cffi.readthedocs.org
+PackageChecksum: SHA1: ba44abd69cf6f0f1cc90db34cd067275dc10fc71
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Foreign Function Interface for Python calling C code.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/cffi@1.16.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:s_c_foreign_function_interface:cffi:1.16.0:*:*:*:*:*:*:*
+#####
+
+PackageName: charset-normalizer
+SPDXID: SPDXRef-Package-6-charset-normalizer
+PackageVersion: 3.3.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: TAHRI Ahmed R.
+PackageDownloadLocation: https://pypi.org/project/charset-normalizer/3.3.2
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Ousret/charset_normalizer
+PackageChecksum: SHA1: 79dce4857914fead2ffe55eb787cad6d5cf14643
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/charset-normalizer@3.3.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:tahri_ahmed_r.:charset-normalizer:3.3.2:*:*:*:*:*:*:*
+#####
+
+PackageName: click
+SPDXID: SPDXRef-Package-7-click
+PackageVersion: 8.1.7
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Pallets (contact@palletsprojects.com)
+PackageDownloadLocation: https://pypi.org/project/click/8.1.7
+FilesAnalyzed: false
+PackageHomePage: https://palletsprojects.com/p/click/
+PackageChecksum: SHA1: 874ca2bc1c30d93a4ac6e36a15ed685eafe89097
+PackageLicenseDeclared: BSD-3-Clause
+PackageLicenseConcluded: BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Composable command line interface toolkit</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/click@8.1.7
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pallets:click:8.1.7:*:*:*:*:*:*:*
+#####
+
+PackageName: colorama
+SPDXID: SPDXRef-Package-8-colorama
+PackageVersion: 0.4.6
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Jonathan Hartley
+PackageDownloadLocation: https://pypi.org/project/colorama/0.4.6
+FilesAnalyzed: false
+PackageHomePage: https://github.com/tartley/colorama
+PackageChecksum: SHA1: 3de9f013df4b470069d03d250224062e8cf15c49
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>colorama declares BSD License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Cross-platform colored terminal text.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/colorama@0.4.6
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jonathan_hartley:colorama:0.4.6:*:*:*:*:*:*:*
+#####
+
+PackageName: copier
+SPDXID: SPDXRef-Package-9-copier
+PackageVersion: 9.3.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: org
+PackageDownloadLocation: https://pypi.org/project/copier/9.3.1
+FilesAnalyzed: false
+PackageHomePage: https://github.com/copier-org/copier
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>A library for rendering project templates.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/copier@9.3.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:org:copier:9.3.1:*:*:*:*:*:*:*
+#####
+
+PackageName: cryptography
+SPDXID: SPDXRef-Package-10-cryptography
+PackageVersion: 43.0.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Python Cryptographic Authority
+PackageDownloadLocation: https://pypi.org/project/cryptography/43.0.0
+FilesAnalyzed: false
+PackageLicenseDeclared: Apache-2.0 OR BSD-3-Clause
+PackageLicenseConcluded: Apache-2.0 OR BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>cryptography is a package which provides cryptographic recipes and primitives to Python developers.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/cryptography@43.0.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_cryptographic_authority:cryptography:43.0.0:*:*:*:*:*:*:*
+#####
+
+PackageName: deprecated
+SPDXID: SPDXRef-Package-11-deprecated
+PackageVersion: 1.2.14
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Laurent LAPORTE
+PackageDownloadLocation: https://pypi.org/project/deprecated/1.2.14
+FilesAnalyzed: false
+PackageHomePage: https://github.com/tantale/deprecated
+PackageChecksum: SHA1: 378636d8a1e3d62d5894329c57f44ba0030c2dbd
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python @deprecated decorator to deprecate old python classes, functions or methods.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/deprecated@1.2.14
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:laurent_laporte:deprecated:1.2.14:*:*:*:*:*:*:*
+#####
+
+PackageName: dunamai
+SPDXID: SPDXRef-Package-12-dunamai
+PackageVersion: 1.21.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Matthew Kennerly
+PackageDownloadLocation: https://pypi.org/project/dunamai/1.21.2
+FilesAnalyzed: false
+PackageHomePage: https://github.com/mtkennerly/dunamai
+PackageChecksum: SHA1: 12d7c571675e00df4ff7de4cb90451389cf76acb
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Dynamic version generation</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/dunamai@1.21.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:matthew_kennerly:dunamai:1.21.2:*:*:*:*:*:*:*
+#####
+
+PackageName: funcy
+SPDXID: SPDXRef-Package-13-funcy
+PackageVersion: 2.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Alexander Schepanovski
+PackageDownloadLocation: https://pypi.org/project/funcy/2.0
+FilesAnalyzed: false
+PackageHomePage: http://github.com/Suor/funcy
+PackageChecksum: SHA1: 13fac0037c109a9e4649fc8ee343be17647f7407
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>funcy declares BSD which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>A fancy and practical functional tools</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/funcy@2.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:alexander_schepanovski:funcy:2.0:*:*:*:*:*:*:*
+#####
+
+PackageName: idna
+SPDXID: SPDXRef-Package-14-idna
+PackageVersion: 3.7
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Kim Davies
+PackageDownloadLocation: https://pypi.org/project/idna/3.7
+FilesAnalyzed: false
+PackageChecksum: SHA1: 1d365e17e10d72d0b7876316fc7b9ca0eebdd38d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>idna declares BSD License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Internationalized Domain Names in Applications (IDNA)</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/idna@3.7
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:kim_davies:idna:3.7:*:*:*:*:*:*:*
+#####
+
+PackageName: jinja2
+SPDXID: SPDXRef-Package-15-jinja2
+PackageVersion: 3.1.4
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Pallets (contact@palletsprojects.com)
+PackageDownloadLocation: https://pypi.org/project/jinja2/3.1.4
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>jinja2 declares BSD License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>A very fast and expressive template engine.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/jinja2@3.1.4
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pallets:jinja2:3.1.4:*:*:*:*:*:*:*
+#####
+
+PackageName: jinja2-ansible-filters
+SPDXID: SPDXRef-Package-16-jinja2-ansible-filters
+PackageVersion: 1.3.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: https://pypi.org/project/jinja2-ansible-filters/1.3.2
+FilesAnalyzed: false
+PackageHomePage: https://gitlab.com/dreamer-labs/libraries/jinja2-ansible-filters
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: GPL-3.0-only
+PackageLicenseComments: <text>jinja2-ansible-filters declares GPL3 which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>A port of Ansible's jinja2 filters without requiring ansible core.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/jinja2-ansible-filters@1.3.2
+#####
+
+PackageName: jinja2-time
+SPDXID: SPDXRef-Package-17-jinja2-time
+PackageVersion: 0.2.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Raphael Pierzina
+PackageDownloadLocation: https://pypi.org/project/jinja2-time/0.2.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/hackebrot/jinja2-time
+PackageChecksum: SHA1: df27aa5d8dc6bf7b18212260170d1fb4e25cbe54
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Jinja2 Extension for Dates and Times</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/jinja2-time@0.2.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:raphael_pierzina:jinja2-time:0.2.0:*:*:*:*:*:*:*
+#####
+
+PackageName: markdown-it-py
+SPDXID: SPDXRef-Package-18-markdown-it-py
+PackageVersion: 3.0.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Executable Books
+PackageDownloadLocation: https://pypi.org/project/markdown-it-py/3.0.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/executablebooks/markdown-it-py
+PackageChecksum: SHA1: bee6d1953be75717a3f2f6a917da6f464bed421d
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: MIT
+PackageLicenseComments: <text>markdown-it-py declares MIT License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python port of markdown-it. Markdown parsing, done right!</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/markdown-it-py@3.0.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:executable_books:markdown-it-py:3.0.0:*:*:*:*:*:*:*
+#####
+
+PackageName: markupsafe
+SPDXID: SPDXRef-Package-19-markupsafe
+PackageVersion: 2.1.5
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Pallets (contact@palletsprojects.com)
+PackageDownloadLocation: https://pypi.org/project/markupsafe/2.1.5
+FilesAnalyzed: false
+PackageHomePage: https://palletsprojects.com/p/markupsafe/
+PackageChecksum: SHA1: fbba4acd0312826cec9cfe18371c7df07962cb65
+PackageLicenseDeclared: BSD-3-Clause
+PackageLicenseConcluded: BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Safely add untrusted strings to HTML/XML markup.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/markupsafe@2.1.5
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pallets:markupsafe:2.1.5:*:*:*:*:*:*:*
+#####
+
+PackageName: mdurl
+SPDXID: SPDXRef-Package-20-mdurl
+PackageVersion: 0.1.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Executable Books
+PackageDownloadLocation: https://pypi.org/project/mdurl/0.1.2
+FilesAnalyzed: false
+PackageHomePage: https://github.com/executablebooks/mdurl
+PackageChecksum: SHA1: 596bf1c8752de45fa576a52c315d6d8cc5bb1a4e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: MIT
+PackageLicenseComments: <text>mdurl declares MIT License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Markdown URL utilities</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/mdurl@0.1.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:executable_books:mdurl:0.1.2:*:*:*:*:*:*:*
+#####
+
+PackageName: packaging
+SPDXID: SPDXRef-Package-21-packaging
+PackageVersion: 24.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Organization: Python Packaging Authority (info@pypa.io)
+PackageDownloadLocation: https://pypi.org/project/packaging/24.1
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>packaging declares Apache Software License,BSD License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Core utilities for Python packages</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/packaging@24.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_packaging_authority:packaging:24.1:*:*:*:*:*:*:*
+#####
+
+PackageName: pathspec
+SPDXID: SPDXRef-Package-22-pathspec
+PackageVersion: 0.12.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Caleb P. Burns
+PackageDownloadLocation: https://pypi.org/project/pathspec/0.12.1
+FilesAnalyzed: false
+PackageChecksum: SHA1: 6485791e1b5cf2ef4e756ae392fa80f2c5045d4c
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>pathspec declares Mozilla Public License 2.0 (MPL 2.0) which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Utility library for gitignore style pattern matching of file paths.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pathspec@0.12.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:caleb_p._burns:pathspec:0.12.1:*:*:*:*:*:*:*
+#####
+
+PackageName: platformdirs
+SPDXID: SPDXRef-Package-23-platformdirs
+PackageVersion: 4.2.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: platformdirs
+PackageDownloadLocation: https://pypi.org/project/platformdirs/4.2.2
+FilesAnalyzed: false
+PackageHomePage: https://github.com/platformdirs/platformdirs
+PackageChecksum: SHA1: 5ec69d86917fb1ac23207893ccd598f8af805ba5
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: MIT
+PackageLicenseComments: <text>platformdirs declares MIT License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/platformdirs@4.2.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:platformdirs:platformdirs:4.2.2:*:*:*:*:*:*:*
+#####
+
+PackageName: plumbum
+SPDXID: SPDXRef-Package-24-plumbum
+PackageVersion: 1.8.3
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Tomer Filiba
+PackageDownloadLocation: https://pypi.org/project/plumbum/1.8.3
+FilesAnalyzed: false
+PackageHomePage: https://github.com/tomerfiliba/plumbum
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>plumbum declares Copyright (c) 2013 Tomer Filiba (tomerfiliba@gmail.com) Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Plumbum: shell combinators library</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/plumbum@1.8.3
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:tomer_filiba:plumbum:1.8.3:*:*:*:*:*:*:*
+#####
+
+PackageName: prompt-toolkit
+SPDXID: SPDXRef-Package-25-prompt-toolkit
+PackageVersion: 3.0.36
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: toolkit (jonathan@slenders.be)
+PackageDownloadLocation: https://pypi.org/project/prompt-toolkit/3.0.36
+FilesAnalyzed: false
+PackageHomePage: https://github.com/prompt-toolkit/python-prompt-toolkit
+PackageChecksum: SHA1: da05f669d00817655f76b82972272d4d5f4d4225
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>prompt-toolkit declares BSD License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Library for building powerful interactive command lines in Python</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/prompt-toolkit@3.0.36
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:toolkit:prompt-toolkit:3.0.36:*:*:*:*:*:*:*
+#####
+
+PackageName: pycparser
+SPDXID: SPDXRef-Package-26-pycparser
+PackageVersion: 2.22
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Eli Bendersky
+PackageDownloadLocation: https://pypi.org/project/pycparser/2.22
+FilesAnalyzed: false
+PackageHomePage: https://github.com/eliben/pycparser
+PackageChecksum: SHA1: 129d32ef805d715d90a3b2035b13168c17ca63d2
+PackageLicenseDeclared: BSD-3-Clause
+PackageLicenseConcluded: BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>C parser in Python</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pycparser@2.22
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:eli_bendersky:pycparser:2.22:*:*:*:*:*:*:*
+#####
+
+PackageName: pydantic
+SPDXID: SPDXRef-Package-27-pydantic
+PackageVersion: 2.8.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Pydantic
+PackageDownloadLocation: https://pypi.org/project/pydantic/2.8.2
+FilesAnalyzed: false
+PackageHomePage: https://github.com/pydantic/pydantic
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: MIT
+PackageLicenseComments: <text>pydantic declares MIT License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Data validation using Python type hints</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pydantic@2.8.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pydantic:pydantic:2.8.2:*:*:*:*:*:*:*
+#####
+
+PackageName: pydantic-core
+SPDXID: SPDXRef-Package-28-pydantic-core
+PackageVersion: 2.20.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Pydantic
+PackageDownloadLocation: https://pypi.org/project/pydantic-core/2.20.1
+FilesAnalyzed: false
+PackageHomePage: https://github.com/pydantic/pydantic-core
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Core functionality for Pydantic validation and serialization</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pydantic-core@2.20.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pydantic:pydantic-core:2.20.1:*:*:*:*:*:*:*
+#####
+
+PackageName: pygit2
+SPDXID: SPDXRef-Package-29-pygit2
+PackageVersion: 1.15.1
+PrimaryPackagePurpose: APPLICATION
+PackageDownloadLocation: https://pypi.org/project/pygit2/1.15.1
+FilesAnalyzed: false
+PackageHomePage: https://github.com/libgit2/pygit2
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>pygit2 declares GPLv2 with linking exception which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python bindings for libgit2.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pygit2@1.15.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a::pygit2:1.15.1:*:*:*:*:*:*:*
+#####
+
+PackageName: pygithub
+SPDXID: SPDXRef-Package-30-pygithub
+PackageVersion: 2.3.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: PyGithub
+PackageDownloadLocation: https://pypi.org/project/pygithub/2.3.0
+FilesAnalyzed: false
+PackageChecksum: SHA1: 7266e812ed2976ea36a4303edecfe5d75522343f
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>pygithub declares GNU Library or Lesser General Public License (LGPL) which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Use the full Github API v3</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pygithub@2.3.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pygithub:pygithub:2.3.0:*:*:*:*:*:*:*
+#####
+
+PackageName: pygments
+SPDXID: SPDXRef-Package-31-pygments
+PackageVersion: 2.18.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: pygments
+PackageDownloadLocation: https://pypi.org/project/pygments/2.18.0
+FilesAnalyzed: false
+PackageHomePage: https://pygments.org
+PackageChecksum: SHA1: d7d11f6e6d3aa97805215c1cc833ea5f0ef1fcbb
+PackageLicenseDeclared: BSD-2-Clause
+PackageLicenseConcluded: BSD-2-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Pygments is a syntax highlighting package written in Python.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pygments@2.18.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:pygments:pygments:2.18.0:*:*:*:*:*:*:*
+#####
+
+PackageName: pyjwt
+SPDXID: SPDXRef-Package-32-pyjwt
+PackageVersion: 2.9.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Jose Padilla
+PackageDownloadLocation: https://pypi.org/project/pyjwt/2.9.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jpadilla/pyjwt
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>JSON Web Token implementation in Python</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pyjwt@2.9.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jose_padilla:pyjwt:2.9.0:*:*:*:*:*:*:*
+#####
+
+PackageName: pynacl
+SPDXID: SPDXRef-Package-33-pynacl
+PackageVersion: 1.5.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Python Cryptographic Authority
+PackageDownloadLocation: https://pypi.org/project/pynacl/1.5.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/pyca/pynacl/
+PackageChecksum: SHA1: ba3638fef06697ce3e1e30abe9bfd93a5ef816fc
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseComments: <text>pynacl declares Apache License 2.0 which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python binding to the Networking and Cryptography (NaCl) library</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pynacl@1.5.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_cryptographic_authority:pynacl:1.5.0:*:*:*:*:*:*:*
+#####
+
+PackageName: python-dateutil
+SPDXID: SPDXRef-Package-34-python-dateutil
+PackageVersion: 2.9.0.post0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: dateutil
+PackageDownloadLocation: https://pypi.org/project/python-dateutil/2.9.0.post0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/dateutil/dateutil
+PackageChecksum: SHA1: 1ae807774053c071acc9e7d3d27778fba0a7773e
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>python-dateutil declares Dual License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Extensions to the standard Python datetime module</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/python-dateutil@2.9.0.post0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:dateutil:python-dateutil:2.9.0.post0:*:*:*:*:*:*:*
+#####
+
+PackageName: pyyaml
+SPDXID: SPDXRef-Package-35-pyyaml
+PackageVersion: 6.0.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: The YAML Project
+PackageDownloadLocation: https://pypi.org/project/pyyaml/6.0.1
+FilesAnalyzed: false
+PackageHomePage: https://pyyaml.org/
+PackageChecksum: SHA1: c42fa3bff1eabdb64763bb1526d9ea1ccb708479
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>YAML parser and emitter for Python</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/pyyaml@6.0.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:the_yaml_project:pyyaml:6.0.1:*:*:*:*:*:*:*
+#####
+
+PackageName: questionary
+SPDXID: SPDXRef-Package-36-questionary
+PackageVersion: 2.0.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Tom Bocklisch
+PackageDownloadLocation: https://pypi.org/project/questionary/2.0.1
+FilesAnalyzed: false
+PackageHomePage: https://github.com/tmbo/questionary
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python library to build pretty command line user prompts ⭐️</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/questionary@2.0.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:tom_bocklisch:questionary:2.0.1:*:*:*:*:*:*:*
+#####
+
+PackageName: requests
+SPDXID: SPDXRef-Package-37-requests
+PackageVersion: 2.32.3
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Python Software Foundation
+PackageDownloadLocation: https://pypi.org/project/requests/2.32.3
+FilesAnalyzed: false
+PackageHomePage: https://requests.readthedocs.io
+PackageChecksum: SHA1: 0e322af87745eff34caffe4df68456ebc20d9068
+PackageLicenseDeclared: Apache-2.0
+PackageLicenseConcluded: Apache-2.0
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python HTTP for Humans.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/requests@2.32.3
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python_software_foundation:requests:2.32.3:*:*:*:*:*:*:*
+#####
+
+PackageName: returns
+SPDXID: SPDXRef-Package-38-returns
+PackageVersion: 0.23.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: python (mail@sobolevn.me)
+PackageDownloadLocation: https://pypi.org/project/returns/0.23.0
+FilesAnalyzed: false
+PackageHomePage: https://returns.readthedocs.io
+PackageLicenseDeclared: BSD-3-Clause
+PackageLicenseConcluded: BSD-3-Clause
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Make your functions return something meaningful, typed, and safe!</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/returns@0.23.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:returns:0.23.0:*:*:*:*:*:*:*
+#####
+
+PackageName: rich
+SPDXID: SPDXRef-Package-39-rich
+PackageVersion: 13.7.1
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Textualize (will@textualize.io)
+PackageDownloadLocation: https://pypi.org/project/rich/13.7.1
+FilesAnalyzed: false
+PackageHomePage: https://github.com/Textualize/rich
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/rich@13.7.1
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:textualize:rich:13.7.1:*:*:*:*:*:*:*
+#####
+
+PackageName: rich-click
+SPDXID: SPDXRef-Package-40-rich-click
+PackageVersion: 1.8.3
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Phil Ewels
+PackageDownloadLocation: https://pypi.org/project/rich-click/1.8.3
+FilesAnalyzed: false
+PackageHomePage: https://github.com/ewels/rich-click
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>rich-click declares MIT License Copyright (c) 2022 Phil Ewels Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Format click help output nicely with rich</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/rich-click@1.8.3
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:phil_ewels:rich-click:1.8.3:*:*:*:*:*:*:*
+#####
+
+PackageName: six
+SPDXID: SPDXRef-Package-41-six
+PackageVersion: 1.16.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Benjamin Peterson
+PackageDownloadLocation: https://pypi.org/project/six/1.16.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/benjaminp/six
+PackageChecksum: SHA1: 65486e4383f9f411da95937451205d3c7b61b9e1
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Python 2 and 3 compatibility utilities</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/six@1.16.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:benjamin_peterson:six:1.16.0:*:*:*:*:*:*:*
+#####
+
+PackageName: types-python-dateutil
+SPDXID: SPDXRef-Package-42-types-python-dateutil
+PackageVersion: 2.9.0.20240316
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: internal
+PackageDownloadLocation: https://pypi.org/project/types-python-dateutil/2.9.0.20240316
+FilesAnalyzed: false
+PackageHomePage: https://github.com/python/typeshed
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>types-python-dateutil declares Apache-2.0 license which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Typing stubs for python-dateutil</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/types-python-dateutil@2.9.0.20240316
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:internal:types-python-dateutil:2.9.0.20240316:*:*:*:*:*:*:*
+#####
+
+PackageName: typing-extensions
+SPDXID: SPDXRef-Package-43-typing-extensions
+PackageVersion: 4.12.2
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Python
+PackageDownloadLocation: https://pypi.org/project/typing-extensions/4.12.2
+FilesAnalyzed: false
+PackageHomePage: https://github.com/python/typing_extensions
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseComments: <text>typing-extensions declares Python Software Foundation License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Backported and Experimental Type Hints for Python 3.8+</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/typing-extensions@4.12.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:python:typing-extensions:4.12.2:*:*:*:*:*:*:*
+#####
+
+PackageName: urllib3
+SPDXID: SPDXRef-Package-44-urllib3
+PackageVersion: 2.2.2
+PrimaryPackagePurpose: APPLICATION
+PackageDownloadLocation: https://pypi.org/project/urllib3/2.2.2
+FilesAnalyzed: false
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: MIT
+PackageLicenseComments: <text>urllib3 declares MIT License which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>HTTP library with thread-safe connection pooling, file post, and more.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/urllib3@2.2.2
+ExternalRef: SECURITY cpe23Type cpe:2.3:a::urllib3:2.2.2:*:*:*:*:*:*:*
+#####
+
+PackageName: wcwidth
+SPDXID: SPDXRef-Package-45-wcwidth
+PackageVersion: 0.2.13
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Jeff Quast
+PackageDownloadLocation: https://pypi.org/project/wcwidth/0.2.13
+FilesAnalyzed: false
+PackageHomePage: https://github.com/jquast/wcwidth
+PackageLicenseDeclared: MIT
+PackageLicenseConcluded: MIT
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Measures the displayed width of unicode strings in a terminal</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/wcwidth@0.2.13
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:jeff_quast:wcwidth:0.2.13:*:*:*:*:*:*:*
+#####
+
+PackageName: wrapt
+SPDXID: SPDXRef-Package-46-wrapt
+PackageVersion: 1.16.0
+PrimaryPackagePurpose: APPLICATION
+PackageSupplier: Person: Graham Dumpleton
+PackageDownloadLocation: https://pypi.org/project/wrapt/1.16.0
+FilesAnalyzed: false
+PackageHomePage: https://github.com/GrahamDumpleton/wrapt
+PackageLicenseDeclared: NOASSERTION
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseComments: <text>wrapt declares BSD which is not currently a valid SPDX License identifier or expression.</text>
+PackageCopyrightText: NOASSERTION
+PackageSummary: <text>Module for decorators, wrappers and monkey patching.</text>
+ExternalRef: PACKAGE_MANAGER purl pkg:pypi/wrapt@1.16.0
+ExternalRef: SECURITY cpe23Type cpe:2.3:a:graham_dumpleton:wrapt:1.16.0:*:*:*:*:*:*:*
+#####
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-1-annotated-types
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-10-cryptography
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-11-deprecated
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-12-dunamai
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-13-funcy
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-14-idna
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-15-jinja2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-16-jinja2-ansible-filters
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-17-jinja2-time
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-18-markdown-it-py
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-19-markupsafe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-2-arrow
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-20-mdurl
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-21-packaging
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-22-pathspec
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-23-platformdirs
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-24-plumbum
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-25-prompt-toolkit
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-26-pycparser
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-27-pydantic
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-28-pydantic-core
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-29-pygit2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-3-beartype
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-30-pygithub
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-31-pygments
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-32-pyjwt
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-33-pynacl
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-34-python-dateutil
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-35-pyyaml
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-36-questionary
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-37-requests
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-38-returns
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-39-rich
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-4-certifi
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-40-rich-click
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-41-six
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-42-types-python-dateutil
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-43-typing-extensions
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-44-urllib3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-45-wcwidth
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-46-wrapt
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-5-cffi
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-6-charset-normalizer
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-7-click
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-8-colorama
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-9-copier

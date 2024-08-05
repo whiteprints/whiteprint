@@ -57,7 +57,10 @@ RUN ${UV_BIN}/uv pip compile \
         --python=${PYTHON_VERSION} \
         --quiet \
         --requirement requirements.txt && \
-    rm requirements.txt
+    rm requirements.txt && \
+    find ${VIRTUAL_ENV} -name '*.pyc' -type f -delete && \
+    find ${VIRTUAL_ENV} -name '__pycache__' -type d -delete && \
+    find ${VIRTUAL_ENV} -name '*.egg-info' -type d -delete
 
 # Copy in source files.
 COPY README.md COPYING hatch.toml hatch_build.py ./

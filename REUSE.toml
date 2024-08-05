@@ -114,11 +114,6 @@ SPDX-License-Identifier = "MIT-0"
 ## Auto generated files
 
 [[annotations]]
-path = "DEPENDENCIES.md"
-SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
-SPDX-License-Identifier = "CC0-1.0"
-
-[[annotations]]
 path = "**/requirements.txt"
 SPDX-FileCopyrightText = "© 2023 Romain Brault <mail@romainbrault.com>"
 SPDX-License-Identifier = "CC0-1.0"

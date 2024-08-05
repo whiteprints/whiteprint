@@ -1,0 +1,700 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: whiteprint
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-1b3cd95d-68ed-4f4c-8182-d5a8712eaea3
+Creator: Person: Anonymous ()
+Creator: Organization: Anonymous ()
+Creator: Tool: reuse-4.0.3
+Created: 2024-08-05T12:37:33Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ecb59f26ff1dc95fffb831c67ace1f7c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-630978401b0ddbe349f906d89133d828
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6afc05e010ee3b1819788df0cdb8d0f5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c0c4e3cc928a2eddd96c667cdac707b3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-178a6d9c06965608a94807f2b77120b0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d6cf2a4c55c0fcbeceb663e7e4b61df6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8fca0d1931494d07e95e67181579d1fa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d6f40be0ea0ca6d7454e3049a00bbbb2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-47d8e7bde67a7a9e700b33484477268a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2abb3b2e46e5a9752a672fa951f9033a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bfe5a2326e28135051a1eb0dbbf6a443
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-06da9d4361064b4d0f5f798f15f9157b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0c5beab844484b7d34941ad4def7ea72
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e778fbb4e2a1ee317dec2bbcbf72b59a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ca56358da7513718b6970acbc47b0edf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f209fd27f41c3051a72667e2d7717441
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a53219f013e49e6f8165826b6d739231
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b280f4f076dc8250fec13e45c608b03e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e35d5b7f92302e1645491ed3e4f5b778
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-90f4019d3bde6b2194cff3cf3239fc48
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c025bee61905f08dd6a1870108262f4b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ad1f846fb2436d3b9ebd42298be46ff5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-deba25105f9b677f6ee4a86b88e7aee8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3a6528b8054e2dbebde95eea2bd6ccae
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-00809092c1ca0c61f4cc35b62a70b497
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0e0a0b512d1c6f0305cff29c9abe8bc6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d5321fa664f4fc3b5e703ff657ec7844
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5399c5ab54426687bdbae298920bda8d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c484bd83ad16c51b7df66d363cea4f6a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2abc19261dad1f52b24c24d6fc0aa1ec
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8fdaa3320e48853af99934ca732f0da6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4ab548d63e33d8adb35c50b908367796
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-57c21f9251e36fef4533f5cd760fbe55
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-89f04face1c937a37cf251ed2640d7ed
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-52eaa808287149e9652e0d787d97d5a5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a783a16ca38a0cc3e6579ef442cf939c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-99ffa9a665da0138ace8d19d8848df10
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a95c9cbe5b5fd915dff44a8dab7f382e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b67278039b8e0f64ef562fd0947af28c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-03ad6db14521d9925af8622c9413bb2b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3b98f690a406b0e10786d48c07d70897
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-273b6648a15de691ad40f90b9a83978b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a280a7d64f9f4460cd3f6296d20ae753
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6b9bbd0276ed2f7c3d015e59dc2d7e15
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fc3b45e8a6820fab78362cb8b853ec15
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1267d3f45271ce109dd8c850795dae99
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5f5b1543971f7553d911ecfda336a1fb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bbc8b4b7e5a4490a4a883221a60ad832
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-98ba38bbcc76e04ba51da1a3ac777033
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-02ecf8802146fdbc01989e14ab532411
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-406a8b67164c4c094982b8632fbb2279
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a536c9c800ae9a139174fbffb2f5f181
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2c39c76d875dc0d0151541a70a8f5303
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-eb52494ffea22f76bfd779efc8f57e35
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ec871608406ce2c07eaec72ea7b6debe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d9d68d11edca989a6c04fd2b7bd2e48c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d5fbde89c0bad4e85dfd1137a41a00f7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f9f3ac6d2882686ebffc69f999b403ba
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-311ff8fa3e5af962652d7987d2bf65ee
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-202a0de4f45d37bb31d9454787e234cf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ca79e208a55f55c7e28623ed4a4c132c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-25599be8cf7d02eed8cdea0fd7eca1a1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ecb471b0b98167b3d3b148b927a4872a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-35feee3e009ea5eefb720201adf3857f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-64f0585f0ce2c47c135f0a904fbc4eb5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cc3a9657e6b47bb806165618b5e18521
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9b4154bbdc60f41441d37574cdbcef22
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6907a49c4253b4d8b67642ecd80491ff
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-853710ac0533aa279a7b6d02b8805399
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-412105f8c7ae146803ccf5e4732eac37
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d47e4860bb05618bdb0738b53bcc6d52
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9e9199097d2c2657874eaa47f8fd5354
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a2e3690fbb1622346f5ba21137e7a0b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4e0fbb38448663c94bb90d59b8d8b1ba
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17c17f4046a8f15e5fb698b00c9c486e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-42360d62de198f0f6dd9bc640e861252
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fc6240c1cae448f75705e98ed6ffa121
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ea4dcbac4d04212786d70190b5254f8c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-50de3e683baab97cec4ddef8f7a92402
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a14c0a633d8611501660af6dfb0cf65f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5fdd44a801a3ba4ce080fa3730c3f05a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a1feec4f9184c307f557bb8b18f77cfa
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7c1d8647deb67921d436fc9dfd794f6c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d91b8baff8f29b8a8e8dd89f2ca53b62
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9ff928e7b2a9d598e0a47046b6d8a31e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f6921d7e8aa75f6fd1bfc5fc6abf2d5a
+
+FileName: ./.coveragerc
+SPDXID: SPDXRef-ecb59f26ff1dc95fffb831c67ace1f7c
+FileChecksum: SHA1: f164f191e89dcbf3de6143a74b4c3ce4aa97cb38
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.editorconfig
+SPDXID: SPDXRef-630978401b0ddbe349f906d89133d828
+FileChecksum: SHA1: 2c67b11b463c2fde53b3e937aaab167f1d8b6843
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.gitattributes
+SPDXID: SPDXRef-6afc05e010ee3b1819788df0cdb8d0f5
+FileChecksum: SHA1: 43afb936fb19527e45907074b60b056041a4cbaa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/CODEOWNERS
+SPDXID: SPDXRef-c0c4e3cc928a2eddd96c667cdac707b3
+FileChecksum: SHA1: 0dac817d1c4ab993fc9600cde3901cb86aa666dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/ISSUE_TEMPLATE/bug_report.yml
+SPDXID: SPDXRef-178a6d9c06965608a94807f2b77120b0
+FileChecksum: SHA1: 0b741583b4456cd742be6df665a87a360d44a97e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/ISSUE_TEMPLATE/config.yml
+SPDXID: SPDXRef-d6cf2a4c55c0fcbeceb663e7e4b61df6
+FileChecksum: SHA1: bf601cc2f44f045b8a0cd6883245e2372df33d20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/ISSUE_TEMPLATE/feature_request.yml
+SPDXID: SPDXRef-8fca0d1931494d07e95e67181579d1fa
+FileChecksum: SHA1: 0fe3161cf5b5c4019d6961b4acfd25d06926e40d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/PULL_REQUEST_TEMPLATE.md
+SPDXID: SPDXRef-d6f40be0ea0ca6d7454e3049a00bbbb2
+FileChecksum: SHA1: 46013ef5fb1f69aee2c19d1750b5c2356a50d7ad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/dependabot.yml
+SPDXID: SPDXRef-47d8e7bde67a7a9e700b33484477268a
+FileChecksum: SHA1: 64fa3760033d68a98ae8b068a84341fbb8f32556
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/labeler.yml
+SPDXID: SPDXRef-2abb3b2e46e5a9752a672fa951f9033a
+FileChecksum: SHA1: 001a9e6ddbc94e3593d8f2903ad0cc35e7a77fca
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/labels.yml
+SPDXID: SPDXRef-bfe5a2326e28135051a1eb0dbbf6a443
+FileChecksum: SHA1: 9803d72e67c0439c3685e07a92be21a48ea2a14d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/pullRequestSizing.yml
+SPDXID: SPDXRef-06da9d4361064b4d0f5f798f15f9157b
+FileChecksum: SHA1: c973c94156c37c5e0c9c4f12c149be4075b7d659
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/release-drafter.yml
+SPDXID: SPDXRef-0c5beab844484b7d34941ad4def7ea72
+FileChecksum: SHA1: 703c8e3b11ac7f2e77fdedc04773f14ca7d0a5e9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/constraints.txt
+SPDXID: SPDXRef-e778fbb4e2a1ee317dec2bbcbf72b59a
+FileChecksum: SHA1: 3e37d7ce6c915721947c48ee1e3dfb2ae916264e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/container.yml
+SPDXID: SPDXRef-ca56358da7513718b6970acbc47b0edf
+FileChecksum: SHA1: 10f33c2b47df8ec5d41a278776ee4ca956ab1cf1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/labeler.yml
+SPDXID: SPDXRef-f209fd27f41c3051a72667e2d7717441
+FileChecksum: SHA1: 40e0a6e0fdada2cf9495c4fb007ae75f5c05f42f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/pages.yml
+SPDXID: SPDXRef-a53219f013e49e6f8165826b6d739231
+FileChecksum: SHA1: d9cf4bb59d8f66f638e77f4bb0583d3c384b953f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/pr-labeler.yml
+SPDXID: SPDXRef-b280f4f076dc8250fec13e45c608b03e
+FileChecksum: SHA1: 3818b93a7cfa899d5e67f173adca8c48e7be9024
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/pr-sizing.yml
+SPDXID: SPDXRef-e35d5b7f92302e1645491ed3e4f5b778
+FileChecksum: SHA1: b965f406f957258263ae49bb4b2f775e12fe6c28
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/release.yml
+SPDXID: SPDXRef-90f4019d3bde6b2194cff3cf3239fc48
+FileChecksum: SHA1: c9996ae6a85253994da354b1800c83e1458a86f1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/semantic.yml
+SPDXID: SPDXRef-c025bee61905f08dd6a1870108262f4b
+FileChecksum: SHA1: 4dce59dea1ab83423457a8dc37d10a6e14280b4f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.github/workflows/tests.yml
+SPDXID: SPDXRef-ad1f846fb2436d3b9ebd42298be46ff5
+FileChecksum: SHA1: 37f4474baf6b3b3fd61912593c68edfbfed1ace6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.gitignore
+SPDXID: SPDXRef-deba25105f9b677f6ee4a86b88e7aee8
+FileChecksum: SHA1: 2afed59b9557153acc398354033a5126b20241d5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.pre-commit-config.yaml
+SPDXID: SPDXRef-3a6528b8054e2dbebde95eea2bd6ccae
+FileChecksum: SHA1: 4e7c4191918b9770504a2ebf6f363e0c253aa3f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.pylintrc
+SPDXID: SPDXRef-00809092c1ca0c61f4cc35b62a70b497
+FileChecksum: SHA1: 7d5f0c228c90d9200a7e5fb4d3903e5e918bca01
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.readthedocs.yml
+SPDXID: SPDXRef-0e0a0b512d1c6f0305cff29c9abe8bc6
+FileChecksum: SHA1: 14ec4be46134122fbd7efae1548e275fbb602c03
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./.ruff.toml
+SPDXID: SPDXRef-d5321fa664f4fc3b5e703ff657ec7844
+FileChecksum: SHA1: 69093e4d24a8b94e6f9165bcfea530d28cac4357
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./CODE_OF_CONDUCT.md
+SPDXID: SPDXRef-5399c5ab54426687bdbae298920bda8d
+FileChecksum: SHA1: 8a4a98793d8b9238f5cbf41baca23893f9315585
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>© 2014 Coraline Ada Ehmeke</text>
+
+FileName: ./CONTRIBUTING.md
+SPDXID: SPDXRef-c484bd83ad16c51b7df66d363cea4f6a
+FileChecksum: SHA1: 3b12d7fe6efdd1bce07145829d25ba5ff364e553
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./README.md
+SPDXID: SPDXRef-2abc19261dad1f52b24c24d6fc0aa1ec
+FileChecksum: SHA1: 4102c870c0b9da2ab435190b1959a16b97a9bf30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./REUSE.toml
+SPDXID: SPDXRef-8fdaa3320e48853af99934ca732f0da6
+FileChecksum: SHA1: b3475dd3a6dc53fa8d94e4bf02460eb1e76b65a7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2014 Coraline Ada Ehmeke"
+© 2023 Romain Brault <mail@romainbrault.com>"
+© 2024 Romain Brault <mail@romainbrault.com>"</text>
+
+FileName: ./SECURITY.md
+SPDXID: SPDXRef-4ab548d63e33d8adb35c50b908367796
+FileChecksum: SHA1: 237c7694d0dd95fab667a768cf5d6634b59ef2b5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./bandit.yaml
+SPDXID: SPDXRef-57c21f9251e36fef4533f5cd760fbe55
+FileChecksum: SHA1: b5805498162875df2ce1655475dd5a81ae47a0a6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./container/Containerfile
+SPDXID: SPDXRef-89f04face1c937a37cf251ed2640d7ed
+FileChecksum: SHA1: 20fd4a0edcb7d7691d23b4dc0d5b36915f945b9a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./container/Containerfile.containerignore
+SPDXID: SPDXRef-52eaa808287149e9652e0d787d97d5a5
+FileChecksum: SHA1: 084538bd97fde93013703165d26a1820972a38f3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/code_of_conduct.md
+SPDXID: SPDXRef-a783a16ca38a0cc3e6579ef442cf939c
+FileChecksum: SHA1: 6da40307fd26b81c6f4689dfc4805ea15a0c3e69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/conf.py
+SPDXID: SPDXRef-99ffa9a665da0138ace8d19d8848df10
+FileChecksum: SHA1: 2688bc1eec03fb099949a565904d56df9b6b6245
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/contributing.md
+SPDXID: SPDXRef-a95c9cbe5b5fd915dff44a8dab7f382e
+FileChecksum: SHA1: 4f1bbd173c3260f763acd1722da683388b816087
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/copying.md
+SPDXID: SPDXRef-b67278039b8e0f64ef562fd0947af28c
+FileChecksum: SHA1: 1f619e2388cf773816d66b3bc2f38a47be678d11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/guide/index.md
+SPDXID: SPDXRef-03ad6db14521d9925af8622c9413bb2b
+FileChecksum: SHA1: 13b1824a6b6760268fd5039eda63fe3fa900d90b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/guide/project.md
+SPDXID: SPDXRef-3b98f690a406b0e10786d48c07d70897
+FileChecksum: SHA1: e269c6714bd43f2918e5aef72da496b52c7ee872
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/guide/whiteprint.md
+SPDXID: SPDXRef-273b6648a15de691ad40f90b9a83978b
+FileChecksum: SHA1: 63b01087c5a9216255c115c390adf446e4d4fdb4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/images/favicon.png
+SPDXID: SPDXRef-a280a7d64f9f4460cd3f6296d20ae753
+FileChecksum: SHA1: 5f2a62d575fab4d53d1f8b39f8d3154d56d54093
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/images/logo.png
+SPDXID: SPDXRef-6b9bbd0276ed2f7c3d015e59dc2d7e15
+FileChecksum: SHA1: 5f2a62d575fab4d53d1f8b39f8d3154d56d54093
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/index.md
+SPDXID: SPDXRef-fc3b45e8a6820fab78362cb8b853ec15
+FileChecksum: SHA1: 7c69d0ae78a8fd966576d69a5bf970ba86dd94d3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/quickstart.md
+SPDXID: SPDXRef-1267d3f45271ce109dd8c850795dae99
+FileChecksum: SHA1: 6eccaa9ceccdae47cf4c1f7ccfe8f63bf8439824
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/requirements.txt
+SPDXID: SPDXRef-5f5b1543971f7553d911ecfda336a1fb
+FileChecksum: SHA1: 71178c54098879c2207a1cab7bbfb8d15d1acc02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/security.md
+SPDXID: SPDXRef-bbc8b4b7e5a4490a4a883221a60ad832
+FileChecksum: SHA1: afcf20084bbd139eed804c8ef4ae500cec6fb916
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./docs/usage.md
+SPDXID: SPDXRef-98ba38bbcc76e04ba51da1a3ac777033
+FileChecksum: SHA1: fb59e18bf7268573de48b94e6513f9a80ae325d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./hatch.toml
+SPDXID: SPDXRef-02ecf8802146fdbc01989e14ab532411
+FileChecksum: SHA1: 94c9d08ccf4c1c81791af667dabcecff1728f5ed
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./hatch_build.py
+SPDXID: SPDXRef-406a8b67164c4c094982b8632fbb2279
+FileChecksum: SHA1: a3afe8ce4351c0f2e9e9a56e51d5175c01bf8b12
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./pyproject.toml
+SPDXID: SPDXRef-a536c9c800ae9a139174fbffb2f5f181
+FileChecksum: SHA1: ab61404e4573faa1bcbc2f58a1db7e1129ed9d16
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./pyrightconfig.json
+SPDXID: SPDXRef-2c39c76d875dc0d0151541a70a8f5303
+FileChecksum: SHA1: 46dd4dfb41b2e0f168dcd14a3ef95894a7c2aa05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./pytest.ini
+SPDXID: SPDXRef-eb52494ffea22f76bfd779efc8f57e35
+FileChecksum: SHA1: f3bf78a651214915f43cea10719c5afad1398d44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./requirements.txt
+SPDXID: SPDXRef-ec871608406ce2c07eaec72ea7b6debe
+FileChecksum: SHA1: 51fe3c634c65d24ed9519979e489cb3d18722b21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/__init__.py
+SPDXID: SPDXRef-d9d68d11edca989a6c04fd2b7bd2e48c
+FileChecksum: SHA1: 0cab28e6cbe552838e33fd7c4ada1394bf2a7575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/__init__.py
+SPDXID: SPDXRef-d5fbde89c0bad4e85dfd1137a41a00f7
+FileChecksum: SHA1: 6922a2dc98d657f718b4bcd3515d9b9cf9e4385b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/__main__.py
+SPDXID: SPDXRef-f9f3ac6d2882686ebffc69f999b403ba
+FileChecksum: SHA1: 713b77f6ca4fcde0740dccd49965ba68c7d99cae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/commands/__init__.py
+SPDXID: SPDXRef-311ff8fa3e5af962652d7987d2bf65ee
+FileChecksum: SHA1: 33c2bb1462ed7213002c02ed41f17878910b4db2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/commands/init.py
+SPDXID: SPDXRef-202a0de4f45d37bb31d9454787e234cf
+FileChecksum: SHA1: 30b71776138d617d08f56c3462fb94600a0ed3ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/commands/tool.py
+SPDXID: SPDXRef-ca79e208a55f55c7e28623ed4a4c132c
+FileChecksum: SHA1: adbf57c09fe5d089051a05c20e2b5c6c155d5bd4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/entrypoint.py
+SPDXID: SPDXRef-25599be8cf7d02eed8cdea0fd7eca1a1
+FileChecksum: SHA1: 78e1cf0cdb341829510fd8fb0affde3fbd7ca9dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/exceptions.py
+SPDXID: SPDXRef-ecb471b0b98167b3d3b148b927a4872a
+FileChecksum: SHA1: 8f7acd29afadca3183c2d5e63a204c26362ff355
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/cli/logging.py
+SPDXID: SPDXRef-35feee3e009ea5eefb720201adf3857f
+FileChecksum: SHA1: ffc53838dff30d199d26f5f6cd30ca3e555cd79c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/console.py
+SPDXID: SPDXRef-64f0585f0ce2c47c135f0a904fbc4eb5
+FileChecksum: SHA1: d7013f6b2d246d2180eca241d0c97e6c6d25b6fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/filesystem.py
+SPDXID: SPDXRef-cc3a9657e6b47bb806165618b5e18521
+FileChecksum: SHA1: bba7892091ab1ce3bbebb45e716c16a0827963aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/loc.py
+SPDXID: SPDXRef-9b4154bbdc60f41441d37574cdbcef22
+FileChecksum: SHA1: ccb55be0179fb8e217624abaef890d447e7609f5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/locale/base.pot
+SPDXID: SPDXRef-6907a49c4253b4d8b67642ecd80491ff
+FileChecksum: SHA1: 3ff86546bd96b6a7249bf8314b5934bdb8318c55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/locale/fr_FR/LC_MESSAGES/messages.po
+SPDXID: SPDXRef-853710ac0533aa279a7b6d02b8805399
+FileChecksum: SHA1: 8e3299bd61059437a70773089791ff38664e19fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC-BY-4.0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/project_manager.py
+SPDXID: SPDXRef-412105f8c7ae146803ccf5e4732eac37
+FileChecksum: SHA1: 805bdc08623aea760cf95a5d311de4a874607789
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/py.typed
+SPDXID: SPDXRef-d47e4860bb05618bdb0738b53bcc6d52
+FileChecksum: SHA1: ef60f75d9814c879e0d3e690dbec69bdc264b132
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/start_process.py
+SPDXID: SPDXRef-9e9199097d2c2657874eaa47f8fd5354
+FileChecksum: SHA1: 1fe64e175fae000a96b3cdf4002fca724f853420
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/tox.py
+SPDXID: SPDXRef-a2e3690fbb1622346f5ba21137e7a0b2
+FileChecksum: SHA1: d9237b2249b87134fdea5ba8a175afac0dce5314
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/version.py
+SPDXID: SPDXRef-4e0fbb38448663c94bb90d59b8d8b1ba
+FileChecksum: SHA1: c4847827180a5e99b132c5dc41233cac485fed6d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./src/whiteprint/version_control.py
+SPDXID: SPDXRef-17c17f4046a8f15e5fb698b00c9c486e
+FileChecksum: SHA1: 7b7ff38c582e6704728277e6ee9f40870f39e83a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/__init__.py
+SPDXID: SPDXRef-42360d62de198f0f6dd9bc640e861252
+FileChecksum: SHA1: ec156e15bab08eada920112de00f55e10b53da51
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/conftest.py
+SPDXID: SPDXRef-fc6240c1cae448f75705e98ed6ffa121
+FileChecksum: SHA1: 362bc66ad0174e5016ca8de3c59cd01aac6be0d4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/__init__.py
+SPDXID: SPDXRef-ea4dcbac4d04212786d70190b5254f8c
+FileChecksum: SHA1: a90c08172bf49bd0ce13b03fed4d8214d313bd11
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_cli/__init__.py
+SPDXID: SPDXRef-50de3e683baab97cec4ddef8f7a92402
+FileChecksum: SHA1: 15353c9393e88973c1fd1332f359573145b10fa8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_cli/test__click_app.py
+SPDXID: SPDXRef-a14c0a633d8611501660af6dfb0cf65f
+FileChecksum: SHA1: 46d1212c6185da1797a9ced38683d8680a5817f2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_cli/test_entrypoint.py
+SPDXID: SPDXRef-5fdd44a801a3ba4ce080fa3730c3f05a
+FileChecksum: SHA1: 878095f51dd067e58010de42e5fc84f5025a0044
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_cli/test_environment.py
+SPDXID: SPDXRef-a1feec4f9184c307f557bb8b18f77cfa
+FileChecksum: SHA1: 9f83705a3ce5286af697dc3b73e2263e192b3dee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_cli/test_init.py
+SPDXID: SPDXRef-7c1d8647deb67921d436fc9dfd794f6c
+FileChecksum: SHA1: d82534d56ce73fd9477c04662b5520fc70afdcc3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_console.py
+SPDXID: SPDXRef-d91b8baff8f29b8a8e8dd89f2ca53b62
+FileChecksum: SHA1: 831f4e4aac926b65a430dd142d95a64ca65a2cc1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tests/test_python_whiteprint/test_version.py
+SPDXID: SPDXRef-9ff928e7b2a9d598e0a47046b6d8a31e
+FileChecksum: SHA1: 91b322dc6e836faa68beae1cadb35a304bcf1b20
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./tox.ini
+SPDXID: SPDXRef-f6921d7e8aa75f6fd1bfc5fc6abf2d5a
+FileChecksum: SHA1: 28e49596c215d33c74214f4e21b467feae00940f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
