@@ -151,4 +151,4 @@ jobs:
           nox --force-color --session=coverage --force-python=${{ steps.setup-python.outputs.python-path }}
 
       - name: Upload coverage report
-        uses: codecov/codecov-action@v3.1.4
+        uses: codecov/codecov-action@v4.5.0
