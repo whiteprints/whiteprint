@@ -2,11 +2,11 @@ SPDXVersion: SPDX-2.1
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: whiteprint
-DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-1b3cd95d-68ed-4f4c-8182-d5a8712eaea3
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-89c8d89a-bcaf-4974-ac96-6716c51344ef
 Creator: Person: Anonymous ()
 Creator: Organization: Anonymous ()
 Creator: Tool: reuse-4.0.3
-Created: 2024-08-05T12:37:33Z
+Created: 2024-08-05T12:46:13Z
 CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ecb59f26ff1dc95fffb831c67ace1f7c
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-630978401b0ddbe349f906d89133d828
@@ -35,6 +35,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3a6528b8054e2dbebde95eea2bd6cca
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-00809092c1ca0c61f4cc35b62a70b497
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0e0a0b512d1c6f0305cff29c9abe8bc6
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d5321fa664f4fc3b5e703ff657ec7844
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3082df26e01cdc8e7c70468f03dcdb9d
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5399c5ab54426687bdbae298920bda8d
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c484bd83ad16c51b7df66d363cea4f6a
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2abc19261dad1f52b24c24d6fc0aa1ec
@@ -93,7 +94,7 @@ Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a1feec4f9184c307f557bb8b18f77cf
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7c1d8647deb67921d436fc9dfd794f6c
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d91b8baff8f29b8a8e8dd89f2ca53b62
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9ff928e7b2a9d598e0a47046b6d8a31e
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f6921d7e8aa75f6fd1bfc5fc6abf2d5a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2d98c28a9e609ec0dca303aed12055e7
 
 FileName: ./.coveragerc
 SPDXID: SPDXRef-ecb59f26ff1dc95fffb831c67ace1f7c
@@ -282,6 +283,13 @@ SPDXID: SPDXRef-d5321fa664f4fc3b5e703ff657ec7844
 FileChecksum: SHA1: 69093e4d24a8b94e6f9165bcfea530d28cac4357
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: MIT-0
+FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
+
+FileName: ./BOM/requirements.txt
+SPDXID: SPDXRef-3082df26e01cdc8e7c70468f03dcdb9d
+FileChecksum: SHA1: efccf2687ba79d05be187f9b93f6d4ec0763169f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: CC0-1.0
 FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
 
 FileName: ./CODE_OF_CONDUCT.md
@@ -693,8 +701,8 @@ LicenseInfoInFile: MIT-0
 FileCopyrightText: <text>© 2023 Romain Brault <mail@romainbrault.com></text>
 
 FileName: ./tox.ini
-SPDXID: SPDXRef-f6921d7e8aa75f6fd1bfc5fc6abf2d5a
-FileChecksum: SHA1: 28e49596c215d33c74214f4e21b467feae00940f
+SPDXID: SPDXRef-2d98c28a9e609ec0dca303aed12055e7
+FileChecksum: SHA1: 27e92a9a6619ff203f601b601ca429b22d005d39
 LicenseConcluded: NOASSERTION
 LicenseInfoInFile: MIT-0
 FileCopyrightText: <text>© 2024 Romain Brault <mail@romainbrault.com></text>
